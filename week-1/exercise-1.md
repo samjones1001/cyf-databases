@@ -1,4 +1,4 @@
-#Exercise 1
+# Exercise 1
 
 So far we know that information in a relational database is stored is *tables*, *columns*, and *rows*.
 
@@ -21,21 +21,21 @@ So, your book table might end up looking something like this:
 
 Think about the following lists. Each list represents another real world example which we can imagine as a database. In each list, which element makes most sense as a table, a column, a row, and as the database itself?
 
-## 1
+#### 1
 
 - The courses run at a university
 - The university itself
 - A computer science course
 - The number of students on a course
 
-## 2
+#### 2
 
 - Star Wars
 - A cinema
 - The screen number which a particular film is showing on
 - The films being shown at the cinema
 
-## 3
+#### 3
 
 - The price of a vegetable
 - All of the vegetables sold at a supermarket

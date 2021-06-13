@@ -2,6 +2,19 @@
 
 - open the postgres terminal with `psql`, and connect to your database using `\c cyf_hotels`
 - Create the customers table in the `cyf_hotels` database.
+
+```
+CREATE TABLE customers (
+  id        SERIAL PRIMARY KEY,
+  name      VARCHAR(30) NOT NULL,
+  email     VARCHAR(120) NOT NULL,
+  address   VARCHAR(120),
+  city      VARCHAR(30),
+  postcode  VARCHAR(12),
+  country   VARCHAR(20)
+);
+```
+
 - Verify that the table customers is created with the psql command `\dt` which lists the existing tables.
 - Display the table customers definition with the command `\d customers` and verify that it matches what you expect.
 - Create a new table hotels in the `cyf_hotels` database with the following columns: `id`, `name`, `number_of_rooms`, and `postcode`. Use the commands above to verify that the table is correctly created.

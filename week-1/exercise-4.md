@@ -9,6 +9,7 @@ INSERT INTO bookings (customer_id, hotel_id, checkin_date, nights) VALUES (1, 1,
 ```
 
 - Run the 3 SQL statements above.
+- Connect to your database and ensure the expected records have been created.
 - Insert yourself in the customers table.
 - Insert the following 3 hotels in the hotels table:
     - The Triple Point Hotel has 10 rooms, its postcode is CM194JS
